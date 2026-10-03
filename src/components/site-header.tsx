@@ -1,0 +1,3 @@
+export function SiteHeader() {
+  return <header className="sticky top-0 z-50 border-b border-slate-200 bg-white"><div className="mx-auto flex min-h-16 max-w-7xl items-center justify-between gap-4 px-3 sm:px-6"><a href="https://jakegenerates.com/" className="inline-flex min-h-11 items-center rounded-lg pr-3 font-semibold text-slate-800 outline-none hover:text-blue-700 hover:underline focus-visible:ring-4 focus-visible:ring-blue-100">← JakeGenerates</a><span className="hidden items-center gap-2 text-sm text-slate-600 sm:inline-flex"><span className="h-2 w-2 rounded-full bg-emerald-600" aria-hidden="true" />Saved only in this browser</span></div></header>;
+}
